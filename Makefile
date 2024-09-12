@@ -254,6 +254,11 @@ UPROGS += \
 	$U/_nettests
 endif
 
+ifeq ($(LAB),util)
+UPROGS += \
+	$U/_sleep
+endif
+
 UEXTRA=
 ifeq ($(LAB),util)
 	UEXTRA += user/xargstest.sh
