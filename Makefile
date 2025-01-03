@@ -257,7 +257,8 @@ endif
 ifeq ($(LAB),util)
 UPROGS += \
 	$U/_sleep \
-	$U/_pingpong
+	$U/_pingpong \
+	$U/_primes
 endif
 
 UEXTRA=
